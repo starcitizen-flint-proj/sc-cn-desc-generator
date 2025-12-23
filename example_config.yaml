@@ -1,0 +1,4 @@
+paratranz:
+  token: REPLACEME # 使用者的token，用来和paratranz API交互
+  proj_id: REPLACEME # 项目ID
+  page_size: 100 # 拉取未翻译数据时每次获取的数量

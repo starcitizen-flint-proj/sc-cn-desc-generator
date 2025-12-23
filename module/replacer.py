@@ -1,7 +1,7 @@
 import os, re
 from typing import List, Tuple
 
-import module.config as config
+import src.config as config
 
 class NumTemplateReplacer:
     def __init__(self, template_file: str):
@@ -174,7 +174,7 @@ class DescTemplateReplacer():
         # 顺便处理 特殊检查：数值类
         return f"{self.map_data['keys'].get(key, key)}：{self.num_replacer.replace(value)}", True
     
-    def replace(self, original_str):
+    def replace(self, original_str, return_original: bool = False):
         replaced_list = []
         flag = False
         for line in original_str.split('\\n'):
@@ -186,5 +186,8 @@ class DescTemplateReplacer():
             flag = flag or is_replaced
             replaced_list.append(result)
         notice_str = '【\\n（编辑后删除中括号以及中括号以内的内容）\\n注意：此为自动填充的模板翻译，文本没有完全翻译且已填充部分可能存在错误，请仔细核对！\\n】'
-        return notice_str + '\\n'.join(replaced_list) if flag else original_str
+        
+        if flag:
+            return notice_str + '\\n'.join(replaced_list)
+        return original_str if return_original else ''
     

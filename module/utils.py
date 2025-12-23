@@ -1,7 +1,7 @@
 import os, re
 import logging
 import requests
-import module.config as config
+import src.config as config
 from tqdm import tqdm
 from io import TextIOWrapper
 from abc import ABC, abstractmethod
