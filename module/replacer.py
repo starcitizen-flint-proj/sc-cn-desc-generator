@@ -4,6 +4,7 @@ from typing import List, Tuple
 import src.config as config
 
 class NumTemplateReplacer:
+    
     def __init__(self, template_file: str):
         """
         初始化模板替换器
@@ -87,6 +88,21 @@ class NumTemplateReplacer:
         
         # 没有匹配，返回原文
         return text
+    
+    def has_match(self, text: str) -> bool:
+        """
+        检查文本是否有模板能匹配
+        
+        Args:
+            text: 输入文本
+            
+        Returns:
+            如果有模板能匹配返回True，否则返回False
+        """
+        for pattern, _ in self.templates:
+            if pattern.match(text):
+                return True
+        return False
     
     def replace_batch(self, texts: List[str]) -> List[str]:
         """
