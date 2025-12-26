@@ -7,11 +7,12 @@ from module.replacer import DescTemplateReplacer
 
 class ParatranzFiller():
     
-    def __init__(self, proj_id: int | str, auth_token: str, page_size: int = 100, base_url: str = 'https://paratranz.cn/api') -> None:
+    def __init__(self, proj_id: int | str, auth_token: str, page_size: int = 100, base_url: str = 'https://paratranz.cn/api', verbose=False) -> None:
         self.proj_id    = proj_id
         self.auth_token = auth_token
         self.page_size  = page_size
         self.base_url   = base_url
+        self.verbose    = verbose
         
         self.replacer   = DescTemplateReplacer()
         self.target_ids = set()
