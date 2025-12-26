@@ -208,6 +208,9 @@ __marimo__/
 
 # 文本文件
 /data/*.ini
+# 处理用的中间文件
+/cache/
+/cache/**
 
 # 配置文件（包括api token等敏感配置）
 # 提供一个示例文件`example_config.yaml`

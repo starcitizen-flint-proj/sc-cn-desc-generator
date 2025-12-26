@@ -75,12 +75,12 @@ class TextReader():
             return set([tid for tid in self.id_set if pattern.match(tid.lower())])
         return set([tid for tid in self.id_set if pattern.match(tid)])
 
-def download_files():
+def download_files(download_config = None):
     download_config = [
         (config.EN_DOWNLOAD_URL,  config.EN_FILE_NAME),
         (config.CN_DOWNLOAD_URL,  config.CN_FILE_NAME),
         (config.REF_DOWNLOAD_URL, config.REF_FILE_NAME),
-    ]
+    ] if download_config is None else download_config
     for url, file_name in download_config:
         file_path = os.path.join(config.TEXT_FILE_DIR, file_name)
         logging.info(f"Downloading {file_path} from {url}...")

@@ -1,7 +1,12 @@
-import logging
+import sys
 import yaml
+import logging
+from pathlib import Path
 
-import src.config as config
+project_root = Path(__file__).parent.parent
+sys.path.insert(0, str(project_root))
+
+import config
 from module.paratranz_filler import ParatranzFiller
 
 if __name__ == '__main__':
