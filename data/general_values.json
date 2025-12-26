@@ -1,0 +1,450 @@
+﻿{
+    "Item Type": {
+        "Power Plant": "发电机",
+        "Medical Device": "医疗设备",
+        "Heavy Armor": "重型护甲",
+        "Medium Armor": "中型护甲",
+        "Medium Backpack": "中型背包",
+        "Heavy Backpack": "重型背包",
+        "Shield Generator": "护盾生成器",
+        "Laser Cannon": "激光加农炮",
+        "Laser Repeater": "激光速射炮",
+        "Light Armor": "轻型护甲",
+        "Quantum Drive": "量子驱动器",
+        "Knife": "匕首",
+        "Life Support": "维生系统",
+        "Shotgun": "霰弹枪",
+        "Magazine": "弹匣",
+        "Undersuit": "基底服",
+        "Sniper Rifle": "狙击步枪",
+        "Cooler": "冷却器",
+        "Flight Suit": "飞行服",
+        "Utility": "工具",
+        "Assault Rifle": "突击步枪",
+        "Neutron Cannon": "中子加农炮",
+        "Laser Turret": "激光炮塔",
+        "Pistol": "手枪",
+        "SMG": "冲锋枪",
+        "Ballistic Repeater": "实弹速射炮",
+        "Missile Rack": "导弹架",
+        "Medical Consumable": "医用耗材",
+        "Ballistic Cannon": "实弹加农炮",
+        "Radar": "雷达",
+        "Flight Helmet": "飞行头盔",
+        "Anti-Aircraft Turret": "防空炮塔",
+        "Battery": "电池",
+        "Tractor Beam": "牵引光束",
+        "Weapon Mount": "武器挂点",
+        "Ammo": "弹药",
+        "Turret (Reliant Exclusive)": "炮塔(信赖专用)",
+        "Light Helmet": "轻型头盔",
+        "Missile Launcher": "导弹发射器",
+        "Frag Pistol": "碎片手枪",
+        "Grenade Launcher": "榴弹发射器",
+        "Ballistic Gatling": "实弹加特林",
+        "Weapon Mount (Reliant Exclusive)": "武器挂点 (信赖专用)",
+        "LMG": "轻机枪",
+        "Sensor Suite": "扫描模组",
+        "Light Backpack": "轻型背包",
+        "Launcher": "发射器",
+        "Toy Pistol": "玩具手枪",
+        "Explosive Bomb": "炸弹",
+        "Container (Medical)": "容器（医用）",
+        "Neutron Repeater": "中子速射炮",
+        "Mining Laser": "采矿激光",
+        "Computer": "计算机",
+        "Ballistic Scattergun": "实弹霰弹炮",
+        "Rocket Pod": "火箭吊舱",
+        "Ball Turret": "球形炮塔",
+        "Plasma Canon": "电浆加农炮",
+        "Ballistic Cannon Turret": "实弹加农炮炮塔",
+        "Manipulator": "操纵器",
+        "Plasma Cannon": "电浆加农炮",
+        "Laser Beam": "激光光束炮",
+        "Tachyon Cannon": "快子加农炮",
+        "Torpedo Launcher": "鱼雷发射器",
+        "Worksuit Helmet": "飞行头盔",
+        "Distortion Cannon": "畸变加农炮",
+        "RMC Canister (Large)": "再生复合材料罐子（大号）",
+        "Laser Scattergun": "激光霰弹炮",
+        "Mass Driver Cannon": "电磁加农炮",
+        "Ballistic Gatling Gun": "实弹加特林",
+        "Distortion Repeater": "畸变速射炮",
+        "Storage": "储存",
+        "Helmet": "头盔",
+        "MedGel Refill": "医疗凝胶药瓶",
+        "RMC Canister (Small)": "再生复合材料罐子（小号）",
+        "Turret": "炮塔",
+        "Railgun": "电磁炮",
+        "Grenade": "手榴弹",
+        "Camera Package": "摄影模组",
+        "Jump Module": "跳跃模块",
+        "Fire Extinguisher": "灭火器",
+        "Distortion Scattergun": "畸变霰弹炮",
+        "Burst Generator": "脉冲发生器",
+        "Extinguisher Refill": "灭火器再补剂",
+        "Field Emitter": "力场发生器",
+        "Multi-Tool Attachment": "多功能工具附件",
+        "Quantum Dampener": "量子抑阻装置",
+        "Anti-Personnel Turret": "反人员炮塔",
+        "Torpedo Rack": "鱼雷架",
+        "EMP Generator": "EMP发生器",
+        "Quantum Enforcement Device": "量子截停装置",
+        "Rocket": "火箭",
+        "Armored Flight Suit": "装甲飞行服",
+        "Missile Turret": "导弹炮台",
+        "Ballistic Gatling Turret": "实弹加特林",
+        "Cannon": "加农炮",
+        "Worksuit": "工作服",
+        "Towing Beam": "牵引光束",
+        "Laser Gatling": "激光加特林",
+        "Laser Mine": "激光地雷",
+        "Gimbal Mount": "可动挂点",
+        "HMG": "重机枪",
+        "Life Support Filter": "维生系统过滤器",
+        "Manned Turret": "载人炮塔",
+        "Utility Mount Cap (Reliant Exclusive)": "工具挂载台 (信赖专属)",
+        "Ballistic Gatling (x<<NUM>>)": "实弹加特林（x<<NUM>>）",
+        "Manufacturing Station": "制造站",
+        "Plasma Scattergun": "电浆霰弹炮",
+        "Bomb Rack": "炸弹架",
+        "Missile Launcher Cap": "导弹发射器弹架",
+        "PDC": "PDC"
+    },
+    "Size": {
+        "<<NUM>>": "<<NUM>>",
+        "<<NUM>> cm": "<<NUM>> 厘米",
+        "S<<NUM>>": "S<<NUM>>",
+        "<<NUM>> (Ground Vehicle Only)": "<<NUM>>（仅限地面载具）"
+    },
+    "Grade": {
+        "A": "A",
+        "D": "D",
+        "B": "B",
+        "C": "C",
+        "<<NUM>>": "<<NUM>>",
+        "Bespoke": "定制"
+    },
+    "Class": {
+        "Industrial": "工业",
+        "Melee": "近战",
+        "Energy (Plasma)": "能量 (电浆)",
+        "Competition": "竞赛",
+        "Energy (Laser)": "能量 (激光)",
+        "Civilian": "民用",
+        "Gadget": "器具",
+        "Military": "军用",
+        "Ballistic": "实弹",
+        "Stealth": "隐形",
+        "Energy (Electron)": "能量 (电子)",
+        "Rocket": "火箭",
+        "Foam Dart": "泡棉软胶弹",
+        "Electron": "电子",
+        "Laser": "能量(激光)",
+        "Salvage and Repair": "打捞及修理",
+        "Medical": "医疗",
+        "Missile": "导弹",
+        "Energy (Microwave)": "能量 (微波)",
+        "Cutter": "切割",
+        "Mining": "采矿",
+        "Tractor Beam": "牵引光束"
+    },
+    "NDR": {
+        "<<NUM>>": "<<NUM>>"
+    },
+    "HEI": {
+        "<<NUM>>": "<<NUM>>"
+    },
+    "Carrying Capacity": {
+        "<<NUM>>K µSCU": "<<NUM>>K uSCU",
+        "<<NUM>> µSCU": "<<NUM>> uSCU",
+        "<<NUM>>k µSCU": "<<NUM>>K uSCU",
+        "<<NUM>>K SP": "<<NUM>>K SP",
+        ".<<NUM>>K µSCU": ".<<NUM>>K uSCU"
+    },
+    "Damage Reduction": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Temp. Rating": {
+        "<<NUM>> / <<NUM>> °C": "<<NUM>> / <<NUM>> 摄氏度",
+        "<<NUM>> / <<NUM>> C": "<<NUM>> / <<NUM>> 摄氏度"
+    },
+    "Radiation Protection": {
+        "<<NUM>> REM": "<<NUM>> 雷姆"
+    },
+    "Radiation Scrub Rate": {
+        "<<NUM>> REM/s": "<<NUM>> 雷姆 / 秒"
+    },
+    "Backpacks": {
+        "All": "全部",
+        "Light": "轻型",
+        "Medium, Light": "轻型&中型"
+    },
+    "Core Compatibility": {
+        "Medium & Heavy": "中型&重型",
+        "Heavy": "重型",
+        "All": "全部"
+    },
+    "Type": {
+        "Flashlight": "战术手电",
+        "Telescopic": "光学透镜",
+        "Noise": "噪声场",
+        "Holographic": "全息投影",
+        "Flight Blade": "飞行刀片",
+        "Suppressor": "消音器",
+        "Energy Stabilizer": "能量稳定器",
+        "Projection": "全息投影",
+        "Compensator": "枪口补偿器",
+        "Ballistic Compensator": "弹道补偿器",
+        "Flash Hider": "消焰器",
+        "Reflex": "红点反射",
+        "Decoy": "诱饵弹",
+        "Monitor": "狙击镜",
+        "Laser Pointer": "激光指示器",
+        "Red Dot": "红点反射",
+        "Laser Beam": "激光光束炮",
+        "Quantum Dampener": "量子抑阻装置"
+    },
+    "Attachment Point": {
+        "Underbarrel": "下挂",
+        "Optic": "光学元件",
+        "Barrel": "枪管"
+    },
+    "Magnification": {
+        "<<NUM>>x - <<NUM>>x": "<<NUM>>倍 - <<NUM>>倍",
+        "<<NUM>>x": "<<NUM>>倍"
+    },
+    "Parallax": {
+        "Medium": "中",
+        "Low": "低",
+        "Very Low": "极低"
+    },
+    "Aim Time": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Battery Size": {
+        "<<NUM>>": "<<NUM>>",
+        "TBD": "TBD"
+    },
+    "Rate Of Fire": {
+        "<<NUM>> rpm": "<<NUM>> rpm",
+        "<<NUM>> rpm / <<NUM>> rpm": "<<NUM>> rpm / <<NUM>> rpm",
+        "<<NUM>>,<<NUM>> rpm": "<<NUM>> rpm",
+        "<<NUM>> rpm (<<NUM>> shot burst)": "<<NUM>> rpm(<<NUM>>发爆炸)",
+        "N / A (Beam)": "N / A (光束)"
+    },
+    "Effective Range": {
+        "<<NUM>> m": "<<NUM>> 米",
+        "<<NUM>><<NUM>> m": "<<NUM>><<NUM>> 米",
+        "<<NUM>> m / <<NUM>> m (Charged)": "<<NUM>> 米 / <<NUM>> 米 (霰弹)",
+        "Variable (<<NUM>>m)": "可变 (<<NUM>>米)",
+        "<<NUM>> m / <<NUM>> m": "<<NUM>> 米 / <<NUM>> 米",
+        "<<NUM>>m": "<<NUM>> 米",
+        "<<NUM>>m+": "<<NUM>> 米+",
+        "<<NUM>> km": "<<NUM>> 千米"
+    },
+    "Capacity": {
+        "<<NUM>>": "<<NUM>>",
+        "<<NUM>> SCU": "<<NUM>> SCU",
+        "<<NUM>> cSCU": "<<NUM>> cSCU"
+    },
+    "Count": {
+        "<<NUM>>": "<<NUM>>"
+    },
+    "Rate of Fire": {
+        "<<NUM>><<NUM>> rpm": "<<NUM>><<NUM>> rpm",
+        "N / A (Beam)": "N / A (光束)",
+        "Beam": "光束",
+        "<<NUM>> rpm - <<NUM>> rpm": "<<NUM>> - <<NUM>> rpm",
+        "<<NUM>> rpm (<<NUM>> rpm rapid)": "<<NUM>> rpm (快速模式<<NUM>> rpm)",
+        "<<NUM>> - <<NUM>> rpm": "<<NUM>><<NUM>> rpm",
+        "<<NUM>> rpm - Beam": "<<NUM>> rpm - 光束",
+        "<<NUM>> rpm": "<<NUM>> rpm",
+        "Constant": "固定"
+    },
+    "Attachments": {
+        "Optics (S<<NUM>>), Underbarrel (S<<NUM>>)": "瞄具 (S<<NUM>>)，下挂 (S<<NUM>>)",
+        "Optics (S<<NUM>>), Barrel (S<<NUM>>), Underbarrel (S<<NUM>>)": "瞄具 (S<<NUM>>)，枪管 (S<<NUM>>)，下挂 (S<<NUM>>)",
+        "Optics (S<<NUM>>), Barrel (<<NUM>>), Underbarrel (S<<NUM>>)": "瞄具 (S<<NUM>>)，枪管 (S<<NUM>>)，下挂 (S<<NUM>>)",
+        "Barrel (S<<NUM>>), Optics (S<<NUM>>), Underbarrel (S<<NUM>>)": "枪管 (S<<NUM>>)，光学元件 (S<<NUM>>)，下挂 (S<<NUM>>)",
+        "Optics (<<NUM>>), Barrel (<<NUM>>), Underbarrel (<<NUM>>)": "瞄具 (S<<NUM>>)，枪管 (S<<NUM>>)，下挂 (S<<NUM>>)",
+        "Optics (S<<NUM>>), Barrel (NA), Underbarrel (S<<NUM>>)": "瞄具 (S<<NUM>>)，枪管 (S<<NUM>>)，下挂 (S<<NUM>>)",
+        "Optics (<<NUM>>), Barrel (<<NUM>>), Underbarrel (S<<NUM>>)": "瞄具 (S<<NUM>>)，枪管 (S<<NUM>>)，下挂 (S<<NUM>>)",
+        "<<NUM>>": "<<NUM>>"
+    },
+    "Magazine Size": {
+        "Integrated Battery": "内置电池",
+        "<<NUM>>": "<<NUM>>",
+        "Gas Canister": "气罐",
+        "<<NUM>> round of <<NUM>> small rockets": "<<NUM>>发，每次<<NUM>>枚小火箭"
+    },
+    "Tracking Signal": {
+        "Infrared": "红外线",
+        "Cross Section": "横截面",
+        "Electromagnetic": "电磁波",
+        "Infared": "红外线"
+    },
+    "Backpack Compatibility": {
+        "Light & Medium": "轻型&中型",
+        "NA": "无",
+        "Light": "轻型"
+    },
+    "Missiles": {
+        "<<NUM>>xS<<NUM>>": "<<NUM>>xS<<NUM>>",
+        "<<NUM>>x S<<NUM>>": "<<NUM>>xS<<NUM>>",
+        "<<NUM>>x<<NUM>>": "S<<NUM>>x<<NUM>>"
+    },
+    "Audible Range": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Visual Recoil": {
+        "<<NUM>>%": "<<NUM>>%",
+        "- <<NUM>>%": "-<<NUM>>%"
+    },
+    "Max Angle": {
+        "<<NUM>>°": "<<NUM>>度"
+    },
+    "Max Range": {
+        "<<NUM>> m": "<<NUM>> 米"
+    },
+    "Full Strength Distance": {
+        "<<NUM>> m": "<<NUM>> 米"
+    },
+    "Focus": {
+        "Interdiction": "拦阻",
+        "Medium Freight / Gunship": "中型货船/炮艇",
+        "Medium Freight": "中型货船",
+        "Pathfinder": "探路者",
+        "Medium Fighter / Medium Freight": "中型战斗机/中型货运",
+        "Heavy Bomber": "重型轰炸机",
+        "Medical": "医疗",
+        "Light Fighter": "轻型战斗机",
+        "Racing": "竞速",
+        "Light Freight": "轻型货运",
+        "Medium Fighter": "中型战斗机",
+        "Expedition": "远征",
+        "Cargo": "货运",
+        "Heavy Mining": "重型采矿",
+        "Touring": "旅行",
+        "Exploration": "探索",
+        "Stealth Fighter": "隐身战斗机",
+        "Gunship": "炮艇"
+    },
+    "Spread Max": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Aim Recoil": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Recoil Time": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Fire Rate": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Additional Burst Shots": {
+        "<<NUM>>": "<<NUM>>"
+    },
+    "Recoil Stability": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Recoil Smoothness": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Optimal Range": {
+        "<<NUM>> m": "<<NUM>>米"
+    },
+    "Maximum Range": {
+        "<<NUM>> m": "<<NUM>>米"
+    },
+    "Gather Radius": {
+        "<<NUM>> m": "<<NUM>>米"
+    },
+    "Extraction Throughput": {
+        "<<NUM>> cSCU/s": "<<NUM>> cSCU/s"
+    },
+    "Power Transfer": {
+        "<<NUM>>": "<<NUM>>"
+    },
+    "Instability": {
+        "<<NUM>> %": "<<NUM>>%",
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Resistance": {
+        "<<NUM>> %": "<<NUM>>%"
+    },
+    "Optimal Charge Window Size": {
+        "<<NUM>> %": "<<NUM>>%"
+    },
+    "Optimal Charge Window Rate": {
+        "<<NUM>> %": "<<NUM>>%",
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Throttle min": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Zoom": {
+        "<<NUM>>x<<NUM>>x": "<<NUM>>倍<<NUM>>倍"
+    },
+    "Effect": {
+        "Hydrating": "补水"
+    },
+    "Schematic": {
+        "Aegis Hammerhead Description": "圣盾锤头鲨介绍",
+        "Aegis Reclaimer Description": "圣盾回收者介绍",
+        "Drake Cutlass Description": "德雷克弯刀介绍",
+        "Drake Caterpillar <<NUM>> Description": "德雷克毛虫<<NUM>>介绍"
+    },
+    "Charge Time": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Ammo Consumption": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Spread": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Canister Size": {
+        "Large": "大"
+    },
+    "Area of Effect": {
+        "<<NUM>> m": "半径<<NUM>>米"
+    },
+    "Damage Type": {
+        "None": "无",
+        "Non-Lethal": "非致命",
+        "EMP": "EMP",
+        "Ballistic": "实弹",
+        "Kinetic": "动能",
+        "Non-Lethal (EMP)": "非致命(EMP)",
+        "Frag": "破片",
+        "Non-Lethal (Concussion)": "非致命(震荡)"
+    },
+    "Duration": {
+        "<<NUM>>s": "<<NUM>>秒"
+    },
+    "Horizontal Aim Recoil": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Vertical Aim Recoil": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Projectile Speed": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Pellets": {
+        "<<NUM>>": "<<NUM>>"
+    },
+    "Spread per Shot": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Spread Min": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Spread Per Shot": {
+        "<<NUM>>%": "<<NUM>>%"
+    },
+    "Torpedo": {
+        "<<NUM>>xS<<NUM>>": "<<NUM>>xS<<NUM>>"
+    }
+}
