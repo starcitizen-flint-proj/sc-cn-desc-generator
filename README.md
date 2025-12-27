@@ -7,13 +7,10 @@
 > (以`键：值 / key: value`代指本项目的替换对象)
 
 目前翻译模式是以`data/`文件夹下的这几个匹配文件控制的：
-- `keys.map`：键
-- `effects.map`：食品/饮品的效果
-- `manufacturers.map`：制造商
-- `num_templates.map`：数字模板（数字使用`[NUM]`代替）
-- [ ] (TODO) `values.map`：一般值的匹配
-
-map文件支持注释，格式为：`#`开头且不含`=`的一行文字
+- `keys.json`：键
+- `effects.json`：食品/饮品的效果
+- `manufacturers.json`：制造商
+- `general_values.json`：一般值的匹配
 
 另外，需要按照`example_config.yaml`的格式在根目录下创建一个`config.yaml`保存部分设置
 
@@ -38,8 +35,8 @@ map文件支持注释，格式为：`#`开头且不含`=`的一行文字
 ## TODO
 
 - [x] 数字模板匹配添加对小数值的匹配
-- [ ] 用json重构一下map，保证一些奇怪键能包住
-- [ ] 未翻译的打个标签
-- [ ] 对其他类别值的匹配
+- [x] 用json重构一下map，保证一些奇怪键能包住
+- [x] 未翻译的打个标签
+- [x] 对其他类别值的匹配
 - [ ] 完整的运行日志
 - [ ] 交给GitHub Action运行
