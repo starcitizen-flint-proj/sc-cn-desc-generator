@@ -40,3 +40,4 @@ if __name__ == '__main__':
     ids = filler.get_todo_desc()
     if len(ids) != 0:
         ntfy_msg_send("Paratranz数据更新", f"更新了{len(ids)}条描述文本", 'general')
+    print(f"共{len(ids)}条未翻译描述文本")
