@@ -37,6 +37,7 @@ if __name__ == '__main__':
         auth_token  = config_data['paratranz']['token']
 
     filler = ParatranzFiller(proj_id=proj_id, auth_token=auth_token, verbose=True)
+    print("开始拉取数据")
     ids = filler.get_todo_desc()
     if len(ids) != 0:
         ntfy_msg_send("Paratranz数据更新", f"更新了{len(ids)}条描述文本", 'general')

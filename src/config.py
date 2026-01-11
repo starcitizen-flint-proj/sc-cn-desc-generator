@@ -2,7 +2,7 @@ import logging
 
 logging.basicConfig(level=logging.WARN, force=True)
 
-TEXT_FILE_DIR    = 'data\\'
+TEXT_FILE_DIR    = 'data'
 
 EN_FILE_NAME     = 'en.ini'     # 英文原文
 CN_FILE_NAME     = 'cn.ini'     # 全汉化
