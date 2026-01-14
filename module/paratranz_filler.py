@@ -49,6 +49,35 @@ class ParatranzFiller():
         logging.info(f"共{len(self.target_ids)}条未翻译的描述")
         return self.target_ids
     
+    def check(self, api_path: str = '/projects/{projectId}/strings/{stringId}'):
+        get_headers = {
+            'Authorization': self.auth_token
+        }
+
+        if len(self.target_ids) == 0:
+            self.get_todo_desc()
+
+        count = 0
+        for id in self.target_ids:
+            logging.info(f"开始处理 id: {id}, key: {self.data[id]['key']}")
+            url = self.base_url + api_path.format(projectId=self.proj_id, stringId=id)
+            response = requests.request("GET", url, headers=get_headers)
+            response.raise_for_status()
+            
+            if int(response.json()['stage']) != 0:
+                logging.info(f"ID{id} 已经更新，跳过")
+                continue
+            translation = self.replacer.replace(response.json()['original'])
+            if translation == '':
+                logging.info(f"ID{id} 无匹配，跳过")
+                continue
+
+            if len(translation) and len(response.json()['translation']) == 0:
+                logging.info(f"ID{id} 可填充但是目前为空，加入列表")
+                count += 1
+        
+        return count
+    
     def run(self, api_path: str = '/projects/{projectId}/strings/{stringId}'):
         get_headers = {
             'Authorization': self.auth_token

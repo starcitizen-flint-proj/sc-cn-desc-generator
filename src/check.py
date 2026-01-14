@@ -27,8 +27,7 @@ def ntfy_msg_send(title, message, topic):
         })
     )
 
-if __name__ == '__main__':
-    
+def main():
     logging.basicConfig(level=logging.WARNING, force=True)
 
     with open('config.yaml', 'r', -1, config.ENCODE) as file:
@@ -38,7 +37,10 @@ if __name__ == '__main__':
 
     filler = ParatranzFiller(proj_id=proj_id, auth_token=auth_token, verbose=True)
     print("开始拉取数据")
-    ids = filler.get_todo_desc()
-    if len(ids) != 0:
-        ntfy_msg_send("Paratranz数据更新", f"更新了{len(ids)}条描述文本", 'general')
-    print(f"共{len(ids)}条未翻译描述文本")
+    num = filler.check()
+    print(f"共{num}条可被填充文本")
+    if num != 0:
+        ntfy_msg_send("Paratranz数据更新", f"更新了{num}条可被填充文本", 'general')
+
+if __name__ == '__main__':
+    main()
