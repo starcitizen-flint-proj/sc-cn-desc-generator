@@ -217,3 +217,5 @@ __marimo__/
 # TODO 如果切换到Github Action的话需要切换到用GitHub自带的密钥系统
 # 目前先写在本地文件里
 config.yaml
+
+.vscode/

@@ -75,9 +75,10 @@ class DescTemplateReplacer():
             return line, False
         
         matched_key = self.json_data['keys'].get(key, key)
+        # NOTE 特殊检查项
         # 特殊检查：制造商
         if key == 'Manufacturer':
-            return f"{matched_key}：{self.json_data['manufacturers'].get(value, value)} ({value})", True
+            return f"{matched_key}：{self.json_data['manufacturers'].get(value, value)}（{value}）", True
         # 特殊检查：食物/饮品的效果
         if key == 'Effect' or key == 'Effects':
             effects = [self.__pre_proc(e) for e in value.split(',')]
