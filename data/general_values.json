@@ -268,11 +268,11 @@
         "<<NUM>>": "<<NUM>>"
     },
     "Carrying Capacity": {
-        "<<NUM>>K µSCU": "<<NUM>>K uSCU",
         "<<NUM>> µSCU": "<<NUM>> uSCU",
-        "<<NUM>>k µSCU": "<<NUM>>K uSCU",
-        "<<NUM>>K SP": "<<NUM>>K SP",
-        ".<<NUM>>K µSCU": ".<<NUM>>K uSCU"
+        "<<NUM>>k µSCU": "<<NUM>>k uSCU",
+        "<<NUM>>K µSCU": "<<NUM>>K uSCU",
+        ".<<NUM>>K µSCU": ".<<NUM>>K uSCU",
+        "<<NUM>>K SP": "<<NUM>>K SP"
     },
     "Damage Reduction": {
         "<<NUM>>%": "<<NUM>>%"
