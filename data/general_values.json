@@ -358,7 +358,8 @@
     "Capacity": {
         "<<NUM>>": "<<NUM>>",
         "<<NUM>> SCU": "<<NUM>> SCU",
-        "<<NUM>> cSCU": "<<NUM>> cSCU"
+        "<<NUM>> cSCU": "<<NUM>> cSCU",
+        "<<NUM>> mSCU": "<<NUM>> mSCU"
     },
     "Count": {
         "<<NUM>>": "<<NUM>>"
